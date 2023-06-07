@@ -1,0 +1,166 @@
+		
+	
+
+
+
+	
+	
+	
+
+	
+	
+			
+	
+	
+	
+
+
+
+
+
+
+
+
+//Burger
+
+// .header__icon
+// &__icon {
+//     display: none;
+//     @media (max-width:768px){
+//        display: block;
+//        position: relative;
+//        width: 26px;
+//        height: 20px; 
+//        left: 90%; 
+//        top: 30px;           
+//        z-index: 10;     
+      
+                        
+       
+//        span{
+//          position: absolute;
+//          width: 20px;
+//          height: 2px;
+//          background-color: white;
+//          left: 0;
+//          top: 8px;
+//          transition: all 0.3s ease 0s;
+         
+//        }
+//        &::before,&::after{
+//          content:'';
+//          position: absolute;
+//          width: 100%;
+//          height: 2px;
+//          background-color: white;
+//          left: 0;
+//          z-index: 20;
+//          transition: all 0.3s ease 0s;
+         
+//        }
+//        &::before{
+//          top: 0;
+         
+//        }
+//        &::after{
+//          bottom: 2px;
+//          width: 15px;
+//        }
+
+//        &._active {
+             
+         
+//              &::before{
+//                  transform:rotate(45deg);
+//                  top: 50%;
+                 
+                 
+//                } 
+//                &::after{
+//                  transform:rotate(-45deg);
+//                  top: 50%;
+//                  width: 100%;
+                 
+//                } 
+//                span{
+//                  transform: scale(0);
+                 
+//                }
+         
+//          }
+       
+//     }
+//  }
+
+
+//Burger
+// Стрелочка
+// .icon-menu{
+//     display: none;
+//     @media (max-width:768px){
+//        display: flex;
+//        position: relative;
+//        width: 50px;
+//        height: 40px; 
+//        left: 0; 
+//        top: 30px;           
+//        z-index: 10; 
+//        border-radius: 50%;              
+//        background-color: white;       
+//        align-items: center;
+//        justify-content: center;
+//        span{
+//          position: relative;
+//          width: 50%;
+//          height: 2px;
+//          background-color: white;         
+                 
+//          background-color: black;
+//          border-radius: 10px;
+        
+//          &::before,&::after{
+//             content:'';
+//             position: absolute;
+//             width: 100%;
+//             height: 2px;
+//             background-color: white;                      
+//             top: 0;
+//             left: 0;
+//             transition: all 0.3s ease 0s;
+//             background-color: black;
+            
+            
+//           }
+//           &::before{
+//              transform: translateY(-6px); 
+//           }
+//           &::after{
+//             transform: translateY(6px);
+           
+//           } 
+         
+        
+//        }
+              
+//        &._active {           
+                     
+//                span{
+                 
+//                  &::before{                   
+//                     transform:rotate(-35deg);   
+//                     transform-origin: left bottom;    
+//                     width: 13px;                
+//                   } 
+//                   &::after{
+//                     transform:rotate(35deg);
+//                     transform-origin: left top; 
+//                     width: 13px;   
+//                   } 
+//                }
+         
+//          }
+       
+//     }
+//  }
+
+
